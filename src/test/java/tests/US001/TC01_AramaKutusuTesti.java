@@ -14,6 +14,7 @@ public class TC01_AramaKutusuTesti {
         page.aramaKutusu.sendKeys("iphone", Keys.ENTER);
         Driver.closeDriver();
         //Amazon sayfasina gidilip arama kutusu test edildi
+        //Mehmet Bey yeni kodlar ekledi
 
     }
 }
