@@ -12,6 +12,7 @@ public class TC01_AramaKutusuTesti {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         Page page = new Page();
         page.aramaKutusu.sendKeys("iphone", Keys.ENTER);
+        Driver.closeDriver();
 
     }
 }
@@ -21,3 +22,8 @@ public class TC01_AramaKutusuTesti {
 configuration.properties
 yaz
  */
+
+//git log versionlari gormek icin
+//git log --oneline versiyonlari ayni satirda gormek icin
+//bir kez add yaptiysak git commit-am"version ismi" ile direk commitleyebiliriz
+
